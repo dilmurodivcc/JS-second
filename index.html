@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Rang Kombinatsiyasi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="./icons/javascript-logo-0.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img style="width: 40px" src="./icons/javascript-logo-0.png" alt="" />
+        <p>algorithms.</p>
+      </div>
+      <div class="navbar">
+        <nav>
+          <a href="#first">First</a>
+          <a href="#second">Second</a>
+          <a href="#third">Third</a>
+          <a href="#fivth">Fivth</a>
+          <a href="#sixth">Sixth</a>
+          <a href="#seventh">Seventh</a>
+        </nav>
+        <div class="btns button-85">
+          <a
+            target="_blank"
+            href="https://github.com/dilmurodivcc/algarithms-1st-ls.git"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+
+          <i style="cursor: pointer" class="fa-solid fa-moon moon-icon"></i>
+        </div>
+      </div>
+    </header>
+    <h1>Algorithms from Qudrat Abdurahimov</h1>
+    <div class="container">
+      <section id="first">
+        <div id="content">
+          <h2>
+            <span class="number">1-masala.</span> Yer maydoni to'g'ri
+            to'rburchak shaklida bo'lib, tomonlari 20m va 40m dan iborat. Umimiy
+            yer yuzasi hisoblang. Yuza hisoblash formulasi:
+            <span class="formula"> S = a * b; </span>
+          </h2>
+          <br />
+          <input id="inputValue" type="number" placeholder="Bo'yi" />
+          <input id="inputValue2" type="number" placeholder="Eni" />
+          <button class="button-85" role="button" onclick="m1()">
+            Hisoblash
+          </button>
+          <div class="output" id="output"><p>Output</p></div>
+        </div>
+        <img
+          class="code"
+          style="
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          "
+          src="./images/Screenshot_5.png"
+          alt=""
+        />
+      </section>
+      <section id="second">
+        <div id="content">
+          <h2>
+            <span>2-masala</span> Nolga teng bo'lmagan ikkita ixtiyoriy sonlarni
+            yeg'indisi, ko'paytmasi va har bir sonning kvadratlari aniqlansin.
+          </h2>
+          <br />
+          <input
+            id="inputValue18"
+            class="first-input"
+            type="number"
+            placeholder="Birinchi soni kiriting"
+          />
+          <input
+            id="inputValue18-2"
+            class="second-input"
+            type="number"
+            placeholder="Ikkinchi soni kiriting"
+          />
+          <button class="button-85" role="button" onclick="m2()">
+            Hisoblash
+          </button>
+          <div class="output" id="output18"><p>Output</p></div>
+        </div>
+        <img
+          class="code"
+          style="
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          "
+          src="./images/Screenshot_6.png"
+          alt=""
+        />
+      </section>
+      <section id="third">
+        <div id="content">
+          <h2>
+            <span>3-masala.</span>Ikkita ixtiyoriy nolga teng bo'lmagan
+            sonlarning o'rta arifmetigi topilsin.
+          </h2>
+          <br />
+          <input
+            id="inputValue3"
+            type="number"
+            placeholder="Birinchi son kiriting"
+          />
+          <input
+            id="inputValue3-2"
+            type="number"
+            placeholder="Ikkinchi son kiriting"
+          />
+          <button class="button-85" role="button" onclick="m3()">
+            Hisoblash
+          </button>
+          <div class="output" id="output3"><p>Output</p></div>
+        </div>
+        <img
+          class="code"
+          style="
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          "
+          src="./images/Screenshot_4.png"
+          alt=""
+        />
+      </section>
+      <section id="fourth">
+        <div id="content">
+          <h2>
+            <span>4-masala.</span> Ixtiyoriy A sonini juft yoki toqligini
+            aniqlang. Agar A soni juft bo'lsa console da "A soni juft" degan aks
+            holda "A soni toq" degan habar chiqaring.
+          </h2>
+          <br />
+          <input
+            id="inputValue4"
+            type="number"
+            placeholder="Uch xonali son kiriting"
+            maxlength="3"
+          />
+          <button class="button-85" role="button" onclick="m4()">
+            Hisoblash
+          </button>
+          <div class="output" id="output4"><p>Output</p></div>
+        </div>
+        <img
+          class="code"
+          style="
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          "
+          src="./images/Screenshot_3.png"
+          alt=""
+        />
+      </section>
+      <section id="fivth">
+        <div id="content">
+          <h2>
+            <span>5-masala.</span>
+            Random A soni olinsin va: FIZZBUZZ, FIZZ, BUZZ algoritm tuzilsin
+          </h2>
+          <br />
+          <input
+            id="inputValue5"
+            type="number"
+            placeholder="Sekundni kiriting"
+            maxlength="3"
+          />
+          <button class="button-85" role="button" onclick="m5()">
+            Hisoblash
+          </button>
+          <div class="output" id="output5"><p>Output</p></div>
+        </div>
+        <img
+          class="code"
+          style="
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          "
+          src="./images/Screenshot_7.png"
+          alt=""
+        />
+      </section>
+      <section id="sixth">
+        <div id="content">
+          <h2>
+            <span>6-masala.</span> Ixtiyoriy A va B sonlari orasida ikkisidan 5
+            ga eng yaqini consolega chiqarilsin.
+          </h2>
+          <br />
+          <input
+            id="inputValueA"
+            type="number"
+            placeholder="Ikki xonali son kiriting"
+            maxlength="2"
+          />
+          <input
+            id="inputValueB"
+            type="number"
+            placeholder="Ikki xonali son kiriting"
+            maxlength="2"
+          />
+          <button class="button-85" role="button" onclick="m6()">
+            Hisoblash
+          </button>
+          <div class="output" id="output6"><p>Output</p></div>
+        </div>
+        <img
+          class="code"
+          style="
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          "
+          src="./images/Screenshot_6.png"
+          alt=""
+        />
+      </section>
+      <section id="seventh">
+        <div id="content">
+          <h2>
+            <span>7-masala.</span> Ikki xonali son berilgan. Uning raqamlar
+            yegindisini aniqlovchi programa tuzing <br /><b class="right"
+              >To'g'ri kiritish: 12, 21, 13, 14</b
+            >
+            <br />
+            <b class="wrong">Xato kiritish: 12 12 23 yoki 124322</b>
+          </h2>
+          <br />
+          <input id="inputValue7" type="text" placeholder="Arrayni kiriting" />
+          <button class="button-85" role="button" onclick="m7()">
+            Hisoblash
+          </button>
+          <div class="output" id="output7"><p>Output</p></div>
+        </div>
+        <img
+          class="code"
+          style="
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          "
+          src="./images/Screenshot_6.png"
+          alt=""
+        />
+      </section>
+      <section id="seventh">
+        <div id="content">
+          <h2>
+            <span>7-masala.</span> Ikki xonali son berilgan. Uning raqamlar
+            yegindisini aniqlovchi programa tuzing <span>Normal</span>
+          </h2>
+          <br />
+
+          <button class="button-85" role="button" onclick="m7n()">
+            Hisoblash
+          </button>
+          <div class="output" id="output7n"><p>Output</p></div>
+        </div>
+        <img
+          class="code"
+          style="
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          "
+          src="./images/Screenshot_6.png"
+          alt=""
+        />
+      </section>
+    </div>
+
+    <footer>
+      <div class="logo">
+        <img style="width: 40px" src="./icons/javascript-logo-0.png" alt="" />
+        <p>algorithms.</p>
+      </div>
+      <div style="margin-left: 10%;" class="navbar">
+        <nav>
+          <a href="#first">First</a>
+          <a href="#second">Second</a>
+          <a href="#third">Third</a>
+          <a href="#fivth">Fivth</a>
+          <a href="#sixth">Sixth</a>
+          <a href="#seventh">Seventh</a>
+        </nav>
+      </div>
+      <p>&copy; 2024 JavaScript Algorithms by Mr.Abdulloh.</p>
+    </footer>
+    <button id="backToTopBtn">
+      <i><i class="fa-solid fa-arrow-up"></i></i>
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
