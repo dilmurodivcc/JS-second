@@ -17,18 +17,14 @@ function m2() {
   const birinchiKvadrat = number18 ** 2;
   const ikkinchiKvadrat = number18_2 ** 2;
   document.getElementById("output18").innerText =
-    "Yig'indisi: " +
-    yigindi +
-    "\n" +
-    "Ko'paytmasi: " +
-    kopaytma +
-    "\n" +
-    "Birinchi son kvadrati: " +
-    birinchiKvadrat +
-    "\n" +
-    "Ikkinchi son kvadrati: " +
-    ikkinchiKvadrat;
+ "Yig'indisi: " + yigindi + "\n" +
+ "Ko'paytmasi: " + kopaytma + "\n" +
+ "Birinchi son kvadrati: " +birinchiKvadrat + "\n" +
+ "Ikkinchi son kvadrati: " +ikkinchiKvadrat;
 }
+
+
+
 
 function m3() {
   const input3 = document.getElementById("inputValue3").value;
@@ -48,6 +44,8 @@ function m4() {
     document.getElementById("output4").innerText = "A soni toq";
   }
 }
+
+
 
 function m5() {
   const input5 = document.getElementById("inputValue5").value;
@@ -93,6 +91,8 @@ function m7n() {
 
 }
 
+
+
 function m7() {
   const input = document.getElementById("inputValue7").value;
   const numbers = input.split(",").map((num) => parseInt(num.trim()));
@@ -103,6 +103,11 @@ function m7() {
      ${firstNumber} va ${lastNumber} => 
      Yig'indisi: ${sum}`;
 }
+
+
+
+
+
 
 // SOME FUNCTION -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
