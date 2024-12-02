@@ -165,7 +165,6 @@ footer {
   backdrop-filter: blur(420px);
   background-color: var(--secondary-bg-color);
   z-index: 1000;
-  margin-top: 150px;
   z-index: 1000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
@@ -366,6 +365,43 @@ a:hover {
   color: var(--highlight-color);
   transition: all 0.2s ease;
   transform: scale(1.02);
+}
+
+
+
+.section-1 {
+  background: linear-gradient(135deg, #ff4d00, #4400ff);
+  padding: 100px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+
+  
+}
+.neon-title {
+  font-size: 58px;
+  color: #fff !important;
+
+  margin-bottom: 20px;
+}
+.neon-box {
+
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ff4d00;
+  border-radius: 10px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.neon-box.logic{
+  max-width: 66%;
+  margin-top: 40px;
+}
+.neon-box:hover {
+  transform: scale(1.1);
 }
 @media screen and (max-width: 600px) {
   header {
